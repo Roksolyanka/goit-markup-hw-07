@@ -125,7 +125,7 @@ body {
   text-transform: uppercase;
   color: var(--first-background-btn-color);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin-right: 76px;
 }
 

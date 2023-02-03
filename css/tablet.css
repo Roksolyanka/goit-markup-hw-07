@@ -38,7 +38,7 @@
     height: 4px;
     background-color: var(--icon-hover-color);
     left: 0;
-    bottom: -17px;
+    bottom: -24px;
     border-radius: 2px;
   }
 
@@ -49,6 +49,7 @@
 
   .header-list-contacts {
     display: block;
+    padding-bottom: 10px;
   }
 
   .header-item-contacts {
