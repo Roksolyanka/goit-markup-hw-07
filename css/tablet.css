@@ -1,0 +1,160 @@
+@media screen and (min-width: 768px) {
+  .container {
+    min-width: 768px;
+  }
+
+  /* ------------------------HEADER-------------------------- */
+
+  .menu-open {
+    display: none;
+  }
+
+  .header {
+    padding-bottom: 0;
+  }
+
+  .header-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .header-item {
+  }
+
+  .header-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: inherit;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+  }
+
+  .header-link.current::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: var(--icon-hover-color);
+    left: 0;
+    bottom: -24px;
+    border-radius: 2px;
+  }
+
+  .header-link:hover,
+  .header-link:focus {
+    color: var(--first-background-btn-color);
+  }
+
+  .header-list-contacts {
+    display: block;
+  }
+
+  .header-item-contacts {
+  }
+
+  .header-email {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-email:hover,
+  .header-email:focus {
+    color: var(--first-background-btn-color);
+  }
+
+  .header-tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-tel:hover,
+  .header-tel:focus {
+    color: var(--first-background-btn-color);
+  }
+
+  /* ------------------------HERO-------------------------- */
+
+  .hero {
+    background-image: var(--bg-gradient), url(../images/hero/office-tab.jpg);
+    padding-bottom: 108px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--bg-gradient),
+        url(../images/hero/office-tab-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    max-width: 530px;
+    font-size: 56px;
+    line-height: 1.07;
+    text-transform: none;
+    margin-bottom: 40px;
+  }
+
+  /* --------------SECTION BASIC PRINCIPLES----------------- */
+
+  .principles-list {
+    gap: 72px 24px;
+  }
+
+  .principles-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .basic-principles {
+    text-align: start;
+  }
+
+  /* ------------------SECTION EMPLOYEES-------------------- */
+
+  .employees {
+    padding-bottom: 104px;
+  }
+
+  .employees > .container {
+    width: 584px;
+  }
+
+  .employees-list {
+    gap: 64px 24px;
+  }
+
+  .employees-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /*--------------------------SECTION CUSTOMERS-------------------*/
+
+  .customers > .container {
+    width: 584px;
+  }
+
+  .customers-list {
+    gap: 72px 24px;
+  }
+
+  .customers-item {
+    width: calc((100% - 48px) / 3);
+  }
+}
+
+/* ------------------------FOOTER----------------------- */
+
+.footer-wrap {
+  flex-direction: row;
+  gap: 24px;
+}
+

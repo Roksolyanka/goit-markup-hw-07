@@ -1,0 +1,18 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 428px;
+  }
+
+  /* ------------------------HERO-------------------------- */
+
+  .hero > .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* ------------------------FOOTER----------------------- */
+
+.footer-wrap {
+
+}

@@ -1,0 +1,137 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* ------------------------HEADER-------------------------- */
+  .header {
+    padding-bottom: 24px;
+  }
+
+  .header-list-contacts {
+    display: flex;
+    gap: 40px;
+  }
+
+  /* ------------------------HERO-------------------------- */
+
+  .hero {
+    background-image: var(--bg-gradient), url(../images/hero/office.jpg);
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--bg-gradient), url(../images/hero/office-2x.jpg);
+    }
+  }
+
+  .hero > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
+  }
+
+  /* --------------SECTION BASIC PRINCIPLES----------------- */
+
+  .principles {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .principles-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .principles-item {
+    width: 264px;
+  }
+
+  .principles-link {
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--section-background-color);
+  }
+
+  .basic-principles {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 8px;
+  }
+
+  /* ------------------SECTION DESCRIPTION-------------------- */
+
+  .description {
+    display: block;
+    padding-bottom: 120px;
+  }
+
+  .description-title {
+    margin-bottom: 72px;
+  }
+
+  .description-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .description-item {
+  }
+  /* ------------------SECTION EMPLOYEES-------------------- */
+
+  .employees {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .employees > .container {
+    width: 1158px;
+  }
+
+  .employees-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .employees-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  /*--------------------------SECTION CUSTOMERS-------------------*/
+
+  .customers {
+    padding-top: 130px;
+    padding-bottom: 120px;
+  }
+
+  .customers > .container {
+    width: 1158px;
+  }
+
+  .customers-list {
+    flex-wrap: nowrap;
+  }
+
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+  }
+}
+
+/* ------------------------FOOTER----------------------- */
+
+.footer > .container {
+  /* display: flex; */
+  /* gap: 80px; */
+}
