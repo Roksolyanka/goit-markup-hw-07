@@ -127,11 +127,40 @@
   .customers-item {
     width: calc((100% - 120px) / 6);
   }
-}
 
-/* ------------------------FOOTER----------------------- */
+  /* ------------------------FOOTER----------------------- */
 
-.footer > .container {
-  /* display: flex; */
-  /* gap: 80px; */
+  .footer > .container {
+    flex-wrap: nowrap;
+    gap: 80px;
+    width: 1158px;
+  }
+
+  .footer-wrap {
+    gap: 120px;
+  }
+
+  /* ------------------------PORTFOLIO----------------------- */
+
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+
+  .portfolio-list {
+    margin-bottom: 72px;
+  }
+
+  .portfolio-next-list {
+    row-gap: 48px;
+  }
+
+  .portfolio-next-item {
+    width: calc((100% - 48px) / 3);
+  }
+  /* -------------------------------MODAL---------------------------- */
+
+  .modal {
+    min-height: 584px;
+  }
 }

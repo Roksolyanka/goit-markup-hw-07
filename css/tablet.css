@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
+    width: 768px;
   }
 
   /* ------------------------HEADER-------------------------- */
@@ -149,12 +149,81 @@
   .customers-item {
     width: calc((100% - 48px) / 3);
   }
+
+  /* ------------------------FOOTER----------------------- */
+
+  .footer > .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+    width: 584px;
+    justify-content: flex-start;
+  }
+
+  .footer-wrap {
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 0;
+  }
+
+  .footer-logo {
+    justify-content: flex-start;
+  }
+
+  .social-media {
+    text-align: start;
+  }
+
+  .subscription-title {
+    text-align: start;
+  }
+
+  .subscription-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  .subscription-input-email {
+    width: 264px;
+    margin-bottom: 0;
+  }
+
+  .subscribe-btn {
+    margin: unset;
+  }
+
+  /* ------------------------PORTFOLIO----------------------- */
+
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .portfolio-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 64px;
+  }
+
+  .portfolio-btn {
+    padding: 12px 24px;
+    height: 48px;
+  }
+
+  .portfolio-next-list {
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .portfolio-next-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /* -------------------------------MODAL---------------------------- */
+
+  .modal {
+    width: 408px;
+  }
 }
-
-/* ------------------------FOOTER----------------------- */
-
-.footer-wrap {
-  flex-direction: row;
-  gap: 24px;
-}
-
