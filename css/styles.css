@@ -253,7 +253,7 @@ body {
 
 .mob-menu-tel {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--first-background-btn-color);
@@ -261,7 +261,7 @@ body {
 
 .mob-menu-soc-list {
   display: flex;
-  gap: 56px;
+  gap: 30px;
   justify-content: flex-start;
 }
 
